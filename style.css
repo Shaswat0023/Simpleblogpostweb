@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+#heading1{
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+}
+#heading2{
+    position: relative;
+    bottom: 42px;
+}
+.container{
+    padding: 10px;
+    border: 1px solid black;
+    height: 700px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr  ;
+    background-image: linear-gradient(to right, white, rgba(228, 122, 23, 0.358));
+    
+}
+.box{
+    border: 1px solid black;
+    background-image: linear-gradient( rgb(207, 231, 216), rgba(173, 10, 10, 0.358) );
+    padding: 10px;
+    box-shadow: 3px 3px 3px aqua;
+}
+.headingclass{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.paraclass{
+    color: rgb(13, 123, 166);
+    font-weight: bolder;
+}
+.paraclass1{
+    color: rgb(20, 221, 33);
+    font-weight: bolder;
+}
+.paraclass2{
+    color: rgb(20, 221, 33);
+    font-weight: bolder;
+}
+.paraclass3{
+    color: rgb(20, 221, 33);
+    font-weight: bolder;
+}
+.paraclass4{
+    color: rgb(20, 221, 33);
+    font-weight: bolder;
+}
+.paraclass5{
+    color: rgb(20, 221, 33);
+    font-weight: bolder;
+}
+#link{
+    font-weight: bolder;
+}

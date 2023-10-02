@@ -1,0 +1,46 @@
+.container{
+    height: 2000px;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 150px 1100px 30px;
+    grid-template-areas: 
+    "hd hd"
+    "main sidebar"
+    "ft ft"
+    ;
+}
+
+#id1{
+    grid-area: hd;
+}
+#id2{
+    grid-area: sidebar;
+    padding: 10px;
+}
+#id3{
+    grid-area: main;
+    padding: 10px;
+}
+#id4{
+    grid-area: ft;
+    padding: 10px;
+    font-weight: bolder;
+}
+#heading1{
+    text-align: center;
+}
+#link1{
+    position: relative;
+    bottom: 50px;
+}
+#heading1-1{
+    position: relative;
+    bottom: 30px;
+}
+#heading1-2{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
